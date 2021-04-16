@@ -6,8 +6,8 @@ metadata:
     app: hello
 spec:
   containers:
-    - name: node-hello
-      image: sysintelligent/node-hello
+    - name: hello-node
+      image: sysintelligent/hello-node
       ports:
         - name: hello-port
           containerPort: 3000
@@ -20,8 +20,8 @@ metadata:
     app: hello
 spec:
   containers:
-    - name: node-hello
-      image: sysintelligent/node-hello
+    - name: hello-node
+      image: sysintelligent/hello-node
       ports:
         - name: hello-port
           containerPort: 3000
